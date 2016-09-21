@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> JavaScript Lab 1 - Light out puzzul </title>
+    <style>     
+      body {font-family: monospace; font-size: 1.2em; padding: 10% 10% 10% 30%;
+            background-color: white;
+      }
+      #mytable {
+          padding: 10 %;
+          background-color: firebrick;
+      }
+      button {
+        height: 30px; background-color:cornflowerblue; font-size: .7em;
+        color: azure; border-radius: 3px; border: 1px solid white;}   
+      td {width: 30px; height: 30px; border: 1px solid white;
+          font-size: .8em; }    
+    </style>
+  </head>
+  
+  <body>   
+    <table id="mytable">
+     <tr id="row_0">
+       <td id="r0_0" onclick="checkmytable(0,0)">  </td> 
+       <td id="r0_1" onclick="checkmytable(0,1)">  </td>
+       <td id="r0_2" onclick="checkmytable(0,2)">  </td> 
+       <td id="r0_3" onclick="checkmytable(0,3)">  </td>
+       <td id="r0_4" onclick="checkmytable(0,4)">  </td> 
+     </tr>
+     <tr id="row_1">
+       <td id="r1_0" onclick="checkmytable(1,0)">  </td> 
+       <td id="r1_1" onclick="checkmytable(1,1)">  </td>
+       <td id="r1_2" onclick="checkmytable(1,2)">  </td> 
+       <td id="r1_3" onclick="checkmytable(1,3)">  </td>
+       <td id="r1_4" onclick="checkmytable(1,4)">  </td> 
+     </tr>
+     <tr id="row_2">
+       <td id="r2_0" onclick="checkmytable(2,0)">  </td> 
+       <td id="r2_1" onclick="checkmytable(2,1)">  </td>
+       <td id="r2_2" onclick="checkmytable(2,2)">  </td> 
+       <td id="r2_3" onclick="checkmytable(2,3)">  </td>
+       <td id="r2_4" onclick="checkmytable(2,4)">  </td> 
+     </tr>
+     <tr id="row_3">
+       <td id="r3_0" onclick="checkmytable(3,0)">  </td> 
+       <td id="r3_1" onclick="checkmytable(3,1)">  </td>
+       <td id="r3_2" onclick="checkmytable(3,2)">  </td> 
+       <td id="r3_3" onclick="checkmytable(3,3)">  </td>
+       <td id="r3_4" onclick="checkmytable(3,4)">  </td> 
+     </tr>
+     <tr id="row_4">
+       <td id="r4_0" onclick="checkmytable(4,0)">  </td> 
+       <td id="r4_1" onclick="checkmytable(4,1)">  </td>
+       <td id="r4_2" onclick="checkmytable(4,2)">  </td> 
+       <td id="r4_3" onclick="checkmytable(4,3)">  </td>
+       <td id="r4_4" onclick="checkmytable(4,4)">  </td> 
+     </tr>    
+    </table> <br>
+    
+    <script src="lab1.js"> </script>    
+  </body>
+</html>
